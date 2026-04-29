@@ -99,8 +99,8 @@ if __name__ == "__main__":
 
     # --- watermark settings ---
     FONT_SIZE = 20                   # watermark text size in points
-    PREFIX = "Шифр: "            # string prepended to filename, e.g. "File: "
-    POSTFIX = " (10 класс)"                     # string appended to filename, e.g. " (copy)"
+    PREFIX = ""            # string prepended to filename, e.g. "File: "
+    POSTFIX = ""                     # string appended to filename, e.g. " (copy)"
     # Set to (x, y) in PDF points to fix the position, or None to auto-place top-right
     POSITION: tuple[float, float] | None = None
 
